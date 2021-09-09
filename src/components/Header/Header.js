@@ -1,10 +1,11 @@
-const Header = () => {
-    return (
-        return (
-    
-      <span className='header'>Movie App</span>
-   
-  );
-}
+import "./Header.css";
 
-export default Header
+const Header = () => {
+  return (
+    <span onClick={() => window.scroll(0, 0)} className='header'>
+      Movie App
+    </span>
+  );
+};
+
+export default Header;
